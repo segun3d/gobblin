@@ -1,2 +1,2 @@
-buildCmd: 'git init; touch haha; git add haha; git commit -am "haha"; gradle clean assemble'
+buildCmd: 'git init; git config --user.email "something@haha.com"; git config --user.name "ahahahah"; touch haha; git add haha; git commit -am "haha"; gradle clean assemble'
 testCmd: 'gradle test -x compileJava'
