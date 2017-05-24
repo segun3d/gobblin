@@ -1,2 +1,2 @@
-buildCmd: 'git init; git config --global user.email "something@haha.com"; git config --global user.name "ahahahah"; touch haha; git add haha; git commit -am "haha"; gradle clean assemble'
+buildCmd: 'git clone https://github.com/NlightNFotis/gobblin.git . ; gradle clean assemble'
 testCmd: 'gradle test -x compileJava'
