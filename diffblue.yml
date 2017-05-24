@@ -1,2 +1,2 @@
-buildCmd: 'git init; git fetch https://github.com/NlightNFotis/gobblin.git; git reset --hard origin/master; gradle clean assemble'
+buildCmd: 'git init; git fetch https://github.com/NlightNFotis/gobblin.git master; git reset --hard FETCH_HEAD; git clean -df; gradle clean assemble'
 testCmd: 'gradle test -x compileJava'
