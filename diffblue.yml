@@ -1,2 +1,2 @@
-buildCmd: 'git clone https://github.com/NlightNFotis/gobblin.git . ; gradle clean assemble'
+buildCmd: 'git init; git pull https://github.com/NlightNFotis/gobblin.git; gradle clean assemble'
 testCmd: 'gradle test -x compileJava'
